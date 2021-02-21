@@ -19,6 +19,6 @@
  ---
  ### Array, Dictionary, Set
   - Array : 순서가 있는 리스트 컬렉션<br>
-  > a
+  >> a
   - Dictionary : 키와 값의 쌍으로 이루어진 컬렉션
   - Set : 순서가 없고, 멤버가 유일한 컬렉션
