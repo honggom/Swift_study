@@ -38,4 +38,4 @@
      >let union: Set<Int> = someSet.union(anotherSet) -> 합집합
      >union.sorted() : 정렬
      >.intersection() : 교집합
-     >.subtracting() : 차집합 
+     >.subtracting() : 차집합
