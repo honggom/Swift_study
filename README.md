@@ -26,8 +26,16 @@
      >.removeAll() : 전체 요소 삭제 
      >.count() : 개수 확인 
      >Array[0] : 0번째 변수로 접근 
-  - Dictionary : 키와 값의 쌍으로 이루어진 컬렉션<br>
+  - Dictionary : 키와 값의 쌍으로 이루어진 컬렉션 순서가 정해진 것이 아님<br>
      >anyDic["someKey"] = "someVal" ... 이런식으로 할당 
-     > - anyDic.removeValue(forKey: "someKey")
-     > - anyDic["someKey"] = nil 
+     > - anyDic.removeValue(forKey: "someKey")  
+     > - anyDic["someKey"] = nil ... 위와 같은 표현 
   - Set : 순서가 없고, 멤버가 유일한 컬렉션
+     >someSet.insert(1) : 인서트 방법
+     >someSet.cotains(1) : true
+     >someSet.remove(1) : 지우는 방법
+     >someSet.count : 개수 확인 
+     >let union: Set<Int> = someSet.union(anotherSet) -> 합집합
+     >union.sorted() : 정렬
+     >.intersection() : 교집합
+     >.subtracting() : 차집합 
