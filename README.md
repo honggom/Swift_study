@@ -10,3 +10,9 @@
  - Double : 실수 64비트 
  - Chracter
  - String
+ 기본적으로 swift는 서로 다른 타입과 자료 교환은 암시적으로 불가능 
+ ---
+ ### Any, AnyObject, nil 
+  - Any : 모든 타입을 지칭하는 키워드 
+  - AnyObject : 모든 클래스 타입을 지칭하는 프로토콜
+  - nil : 없음을 의미하는 키워드 
