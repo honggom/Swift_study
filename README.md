@@ -30,7 +30,7 @@
      >anyDic["someKey"] = "someVal" ... 이런식으로 할당 
      > - anyDic.removeValue(forKey: "someKey")  
      > - anyDic["someKey"] = nil ... 위와 같은 표현 
-  - Set : 순서가 없고, 멤버가 유일한 컬렉션
+  - Set : 순서가 없고, 멤버가 유일한 컬렉션<br>
      >someSet.insert(1) : 인서트 방법
      >someSet.cotains(1) : true
      >someSet.remove(1) : 지우는 방법
