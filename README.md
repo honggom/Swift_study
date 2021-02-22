@@ -39,3 +39,15 @@
      > - union.sorted() : 정렬
      > - .intersection() : 교집합
      > - .subtracting() : 차집합
+---
+# day-02 (2021-02-22)
+ - 함수 선언 
+   > - 반환값이 있는 경우 : func 함수(매개변수명1: 타입, 매개변수명2: 타입 ...) -> 반환타입 {<br> 함수 구현부 return 반환값}
+   > - 반환값이 없는 경우 : 반환타입을 Void로, return 부분 지움 
+   > - 가변 매개 변수 : 매개 변수 타입... 으로 작서 가능하며 인자로 여러개가 들어갈 수 있다. 선언시 마지막에 하는게 좋다.
+   > - 전달 인자 레이블 : 매개 변수의 가명이라 생각하면 됨 매개변수명 앞에 선언하고 함수 내부 정의 에서는 매개변수명을 사용하고 호출시에는 전달인자 레이블을 사용한다.
+   > - var someFunc : (String, Strig) -> Void = greeting(to:from:) >>> 이런식으로 변수에 함수를 할당 가능
+ - for in 
+   > -  ex) var integers = [1,2,3]
+   > for integer in integers { code }
+
